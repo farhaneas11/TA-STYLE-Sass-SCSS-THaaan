@@ -1,0 +1,58 @@
+/*ONE*/
+.one-pricing{
+    padding: 4rem 0;
+    background-color: $colorgrey;
+    p{
+        @extend %p;
+    }
+    .pricing-box-head{
+        .pricing-box{
+            padding: 1rem 0;
+            border: 1px solid rgb(221, 215, 215);
+        }
+        h3{
+            @extend %h3;
+        }
+        li::before{
+            content: "-";
+        }
+        h6{
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: black;
+            padding: 0.5rem 0;
+        }
+        ul{
+            padding: 1rem 0;
+        }
+        li{
+            padding: 0.5rem 0;
+            font-size: 1rem;
+        }
+    }
+}
+
+/*TWO*/
+.two-pricing{
+    padding: 4rem 0;
+    p{
+        @extend %p;
+    }
+    h3{
+        @extend %h3;
+    }
+    .pricingtwo-box-head{
+        padding: 2rem 0;
+        .pricingtwo-box{
+            padding: 1.5rem 0.9rem;
+            border: 1px solid rgb(184, 181, 181);
+            margin-bottom: 2%;
+        }
+        h6{
+            font-size: 1.3rem;
+            color: black;
+            font-weight: 600;
+            padding: 0.5rem 0;
+        }
+    }
+}

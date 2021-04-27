@@ -1,0 +1,66 @@
+.two-about{
+    .img-services{
+        width: 450px;
+        height: 300px;
+    }
+    .logo-services{
+        width: 90px;
+        height: 90px;
+    }
+}
+/*ONE*/
+.one-services{
+    padding: 2rem 0;
+    background-color: $colorgrey;
+    h3{
+        @extend %h3;
+    }
+    p{
+        @extend %p;
+    }
+    .services-box-head{
+        padding: 2rem 0rem;        
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        h5{
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: black;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 300;
+            color: black;
+        }
+    }
+    div:empty{
+        border-top: 1px solid rgb(224, 219, 219);        
+    }
+}
+/*TWO*/
+.two-services{
+    padding: 2rem 0;
+    background-color: $primary;
+    h5{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+    }
+    span{
+        font-size: 2rem;
+        margin: 0 1rem;
+        color: white;
+    }
+    p{
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
+    }
+    button{
+        @extend %button;
+        border: 1px solid white;
+        color: white;
+    }
+}

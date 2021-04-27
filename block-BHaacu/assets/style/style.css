@@ -1,0 +1,837 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.4;
+  font-family: 'Archivo', sans-serif;
+  font-size: 16px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* COMMON  */
+.two-home .two-h3 h3, .three-home .three-box h3, .four-home h3, .six-home h3, .seven-home h3, .two-about h3, .four-about h3, .five-about h3, .one-contact h3, .two-contact h3, .one-services h3, .one-pricing .pricing-box-head h3, .two-pricing h3, .one-error h3 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 800;
+}
+
+.two-home .two-h3 p, .three-home .three-box p, .four-home p, .six-home p, .two-about p, .three-about p, .five-about p, .one-contact p, .one-contact .logo-box-error p, .two-contact p, .one-services p, .one-pricing p, .two-pricing p, .one-error p, .one-error .logo-box-error p {
+  font-size: 1.2rem;
+  color: #6C757D;
+  font-weight: 300;
+}
+
+.two-home .two-box button, .three-home .three-box button, .four-home button, .two-services button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #DC3C45;
+  font-weight: 500;
+  border: 1px solid #DC3C45;
+  background-color: transparent;
+}
+
+.two-home .two-box img, .four-home img {
+  height: 90px;
+  width: 90px;
+  margin: 0.5rem 0;
+}
+
+/* one */
+.one-home {
+  padding: 0.5rem 0;
+  height: 85vh;
+  background-image: url(/block-BHaacu/assets/media/banner-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.one-home .one-h1 {
+  margin-top: 15%;
+}
+
+.one-home .one-h1 h1 {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: black;
+}
+
+.one-home .one-h1 p {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.one-home .one-h1 button {
+  border-radius: 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #DC3C45;
+  padding: 0.5rem 1rem;
+}
+
+/* two */
+.two-home {
+  height: 70vh;
+}
+
+.two-home .two-h3 {
+  margin: 2rem 0;
+}
+
+.two-home .two-box {
+  border: 1px solid #F8F9FA;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+}
+
+.two-home .two-box h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.two-home .two-box p {
+  font-size: 1.2rem;
+  color: #6C757D;
+  margin: 0.9rem 0;
+  padding: 0 0.8rem;
+}
+
+/*THREE*/
+.three-home {
+  height: 40vh;
+  background-color: #F8F9FA;
+}
+
+.three-home .three-box {
+  padding: 5.5rem;
+}
+
+.three-home .three-box p {
+  margin: 0.9rem 0;
+}
+
+/*FOUR */
+.four-home {
+  padding: 5rem 0;
+  height: 50vh;
+}
+
+.four-home h3 {
+  margin: 1rem 0;
+}
+
+.four-home button {
+  margin: 1rem 0;
+}
+
+.four-home .image-four {
+  width: 500px;
+  height: 300px;
+}
+
+/* FIVE  */
+.five-home {
+  background-color: #DC3C45;
+  padding: 1.5rem 0;
+}
+
+.five-home h4 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.five-home p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem;
+}
+
+.five-home button {
+  font-size: 0.9rem;
+  padding: 0 0.5rem;
+  border-radius: 80px;
+  color: white;
+  font-weight: 400;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+/*  SIX */
+.six-home {
+  margin-top: 4rem;
+}
+
+.six-home h3 {
+  margin-bottom: 2rem;
+}
+
+.six-home img {
+  width: 550px;
+  height: 400px;
+}
+
+.box-six {
+  margin-top: 5rem;
+}
+
+/*SEVEN*/
+.seven-home {
+  padding: 4rem 0;
+  background-color: #F8F9FA;
+}
+
+.seven-home .seven-client {
+  padding: 1rem 0;
+}
+
+.seven-home .seven-client img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  width: 150px;
+  height: 70px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #343A40;
+  padding: 2rem 0;
+}
+
+footer h6 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6C757D;
+  padding: 0.5rem 0;
+}
+
+footer li {
+  padding: 0.5rem 0;
+  margin-right: 0.5rem;
+}
+
+footer a {
+  color: #6C757D;
+  font-size: 1rem;
+}
+
+footer i {
+  font-size: 1.2rem;
+  padding: 0rem 0.5rem;
+}
+
+footer .footer-two {
+  padding: 2rem 0;
+}
+
+footer .footer-two em {
+  color: white;
+}
+
+footer .footer-two p {
+  color: #6C757D;
+  font-size: 0.7rem;
+  padding: 0.1rem 0;
+}
+
+footer .footer-two i {
+  font-size: 0.8rem;
+}
+
+/*ONE*/
+.one-about {
+  padding: 4rem 0;
+  background-color: #DC3C45;
+}
+
+.one-about h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+}
+
+.one-about p {
+  color: white;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+/*TWO*/
+.two-about {
+  padding: 2rem 0;
+}
+
+.two-about span {
+  font-size: 0.9rem;
+  color: #DC3C45;
+  font-weight: 400;
+}
+
+.two-about h3 {
+  font-size: 2rem;
+  margin: 0.8rem 0;
+}
+
+.two-about p {
+  width: 75%;
+}
+
+.two-about img {
+  width: 400px;
+  height: 300px;
+}
+
+/*THREE*/
+.three-about {
+  padding: 2rem 0;
+}
+
+.three-about img {
+  width: 400px;
+  height: 300px;
+}
+
+.three-about .small-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 1.5rem;
+  padding: 0.9rem 0;
+}
+
+.three-about h4 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+
+.three-about p {
+  font-size: 1rem;
+}
+
+.three-about .box-size-about {
+  padding: 1.5rem 0;
+}
+
+/*FOUR*/
+.four-about {
+  padding: 2rem 0;
+  background-color: #F8F9FA;
+}
+
+.four-about p {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+
+.four-about img {
+  width: 250px;
+  height: 300px;
+}
+
+.four-about .head-boxteam-four {
+  padding: 2rem 0;
+}
+
+.four-about .box-team-four {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.four-about .four-team-name {
+  padding: 1.5rem 1rem;
+}
+
+.four-about .four-team-name span {
+  color: #DC3C45;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.four-about .four-team-name h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/*FIVE*/
+.five-about {
+  padding: 2rem 0;
+}
+
+.five-about .box-five-about {
+  padding: 2rem 0;
+}
+
+.five-about p {
+  padding: 1rem 10rem;
+}
+
+.five-about button {
+  background-color: #DC3C45;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.5rem 0.7rem;
+}
+
+.title-margin {
+  padding: 2rem 0;
+}
+
+.button-primary {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  border: 1px solid #DC3C45;
+  background-color: #DC3C45;
+}
+
+/*ONE*/
+.one-contact {
+  padding: 2rem 0;
+  background-color: #F8F9FA;
+}
+
+.one-contact .logo-box-error {
+  padding: 4rem 0;
+}
+
+.one-contact .logo-box-error img {
+  width: 90px;
+  height: 90px;
+}
+
+.one-contact .logo-box-error h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: black;
+}
+
+.one-contact .imgdis-box-error {
+  padding: 1rem 0;
+}
+
+/*TWO*/
+.two-contact {
+  padding: 2rem 0;
+}
+
+.two-contact .title-margin {
+  padding: 2rem 0;
+}
+
+.two-contact iframe {
+  width: 450px;
+  height: 250px;
+}
+
+.two-contact .form-control {
+  width: 100%;
+  padding: 0rem 2rem;
+}
+
+.two-contact .form-control .form-input {
+  width: 100%;
+  padding: 0.8rem 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #6C757D;
+  border-radius: 3px;
+  border: 1px solid #6C757D;
+}
+
+.two-about .img-services {
+  width: 450px;
+  height: 300px;
+}
+
+.two-about .logo-services {
+  width: 90px;
+  height: 90px;
+}
+
+/*ONE*/
+.one-services {
+  padding: 2rem 0;
+  background-color: #F8F9FA;
+}
+
+.one-services .services-box-head {
+  padding: 2rem 0rem;
+}
+
+.one-services .services-box-head img {
+  width: 80px;
+  height: 80px;
+}
+
+.one-services .services-box-head h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.one-services .services-box-head p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+}
+
+.one-services div:empty {
+  border-top: 1px solid #e0dbdb;
+}
+
+/*TWO*/
+.two-services {
+  padding: 2rem 0;
+  background-color: #DC3C45;
+}
+
+.two-services h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.two-services span {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: white;
+}
+
+.two-services p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+}
+
+.two-services button {
+  border: 1px solid white;
+  color: white;
+}
+
+/*ONE*/
+.one-pricing {
+  padding: 4rem 0;
+  background-color: #F8F9FA;
+}
+
+.one-pricing .pricing-box-head .pricing-box {
+  padding: 1rem 0;
+  border: 1px solid #ddd7d7;
+}
+
+.one-pricing .pricing-box-head li::before {
+  content: "-";
+}
+
+.one-pricing .pricing-box-head h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+  padding: 0.5rem 0;
+}
+
+.one-pricing .pricing-box-head ul {
+  padding: 1rem 0;
+}
+
+.one-pricing .pricing-box-head li {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/*TWO*/
+.two-pricing {
+  padding: 4rem 0;
+}
+
+.two-pricing .pricingtwo-box-head {
+  padding: 2rem 0;
+}
+
+.two-pricing .pricingtwo-box-head .pricingtwo-box {
+  padding: 1.5rem 0.9rem;
+  border: 1px solid #b8b5b5;
+  margin-bottom: 2%;
+}
+
+.two-pricing .pricingtwo-box-head h6 {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+/*ONE*/
+.one-error {
+  padding: 2rem 0;
+}
+
+.one-error .logo-box-error {
+  padding: 4rem 0;
+}
+
+.one-error .logo-box-error img {
+  width: 90px;
+  height: 90px;
+}
+
+.one-error .logo-box-error h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: black;
+}
+
+.one-error .imgdis-box-error {
+  padding: 1rem 0;
+}
+
+*::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Container  */
+.container {
+  margin: 0px auto;
+  max-width: 1100px;
+  padding: 0px 2rem;
+}
+
+/* Hover  */
+body button {
+  border: none;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  color: wheat;
+}
+
+body button:hover {
+  color: wheat;
+  background-color: #ea553396;
+}
+
+/*   flex */
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.justify-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-center {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*  header  */
+header {
+  max-width: 100%;
+}
+
+.head-one {
+  background-color: #DC3C45;
+  padding: 0.2rem 0;
+}
+
+.head-one a {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.head-one i {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.head-two {
+  background-color: #F8F9FA;
+  padding: 0rem 0;
+}
+
+.head-two a {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.head-two h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #DC3C45;
+  padding: 0.5rem 0;
+}
+
+.head-two h2 span {
+  color: black;
+}
+
+.nav-head {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-head .home {
+  background-color: #DC3C45;
+  padding: 1.2rem 0.7rem;
+}
+
+.head-one li, .head-two li {
+  margin-right: 1.5rem;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu:hover .drop-menu {
+  display: inline-block;
+}
+
+.drop-menu {
+  padding: 0.9rem 2rem;
+  position: absolute;
+  width: 100px;
+  background-color: #F8F9FA;
+  display: none;
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+  left: 50%;
+  top: 19px;
+}
+
+.drop-menu li {
+  margin: 0.6rem 0;
+}
+
+/*  width / flex sizes  */
+.width-45 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+}
+
+.width-30 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+}
+
+.width-20 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+}
+
+.width-35 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 35%;
+          flex: 0 1 35%;
+}
+
+.width-50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+/*# sourceMappingURL=style.css.map */
