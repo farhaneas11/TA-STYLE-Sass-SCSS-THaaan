@@ -1,0 +1,234 @@
+/* COMMON  */
+%h3{
+    font-size: 2.5rem;
+    color: $secondary;
+    font-weight: 800;
+}
+%p{
+    font-size: 1.2rem;
+    color: $para;
+    font-weight: 300;
+}
+%button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: $primary;
+    font-weight: 500;
+    border: 1px solid $primary;
+    background-color: transparent;
+}
+%img{
+    height:90px ;
+    width:90px ;
+    margin: 0.5rem 0;
+}
+
+/* one */
+.one-home {
+    padding: 0.5rem 0;
+    height: 85vh;
+    background-image: url(/block-BHaacu/assets/media/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;  
+    
+    .one-h1{
+        margin-top: 15%;
+        h1{
+            font-size: 3.6rem;
+            font-weight: 900;
+            color: $secondary;
+            
+        }
+        p {
+            font-size: 1.2rem;
+            color: $secondary;
+            font-weight: 500;
+            margin: 1rem 0;
+        }
+        button{
+            border-radius: 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: $primary;      
+            padding: 0.5rem 1rem;      
+        }
+    }
+
+}
+/* two */
+.two-home {
+    height: 70vh;   
+    .two-h3{
+        margin: 2rem 0;
+        h3{
+            @extend %h3;
+        }
+        p{
+            @extend %p;
+        }
+
+    }
+    .two-box{
+        border: 1px solid $colorgrey;
+        padding: 0.5rem 0.5rem;
+        border-radius: 10px;
+        img{
+            @extend %img;
+        }
+        h4{
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: $secondary;
+        }
+        p{
+            font-size: 1.2rem;
+            color: $para;
+            margin: 0.9rem 0;
+            padding: 0 0.8rem;
+        }
+        button{
+            @extend %button;
+        }
+    }
+}
+/*THREE*/
+.three-home {
+    height: 40vh;
+    background-color: $colorgrey;
+    .three-box{
+        padding: 5.5rem;        
+        h3{
+            @extend %h3;       
+        }
+        p{
+            @extend %p;
+            margin: 0.9rem 0;
+        }
+        button{
+            @extend %button;
+        }    
+    }
+ }
+  /*FOUR */
+.four-home{
+    padding: 5rem 0;
+    height: 50vh;
+    img{
+        @extend %img;
+        
+    }
+    h3{
+        @extend %h3;
+        margin: 1rem 0
+    }
+    p{
+        @extend %p;
+    }
+    button{
+        @extend %button;
+        margin: 1rem 0;
+    }
+    .image-four{
+        width: 500px;
+        height: 300px;
+    }
+}
+/* FIVE  */
+.five-home{
+    background-color: $primary;
+    padding: 1.5rem 0;
+    h4{
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 700;
+    }
+    p{
+        font-weight: 500;
+        font-size: 1rem;
+        color: white;
+        padding: 0.5rem;
+    }
+    button{
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+        border-radius: 80px;
+        color: white;
+        font-weight: 400;
+        border: 1px solid white;
+        background-color: transparent;
+    }
+}
+/*  SIX */
+.six-home{
+    margin-top: 4rem;
+    h3{
+        @extend %h3;
+        margin-bottom: 2rem
+    }
+    p{
+        @extend %p;
+    }
+    img{
+        width: 550px;
+        height: 400px;
+    }
+}
+.box-six{
+    margin-top: 5rem;
+}
+/*SEVEN*/
+.seven-home{
+    padding: 4rem 0;
+    background-color: $colorgrey;
+    h3{
+        @extend %h3;
+    }
+    .seven-client{
+        padding: 1rem 0;
+        img{
+            filter: grayscale(100%);
+            width: 150px;
+            height: 70px;
+        }
+    }
+}
+/*FOOTER*/
+footer{
+    background-color:$footer ;
+    padding: 2rem 0;
+    h6{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $para;
+        padding: 0.5rem 0;
+    }
+    li{
+        padding: 0.5rem 0;
+        margin-right: 0.5rem;
+    }
+    a{
+        color: $para;
+        font-size: 1rem;
+    }
+    i{
+        font-size: 1.2rem;
+        padding: 0rem 0.5rem;
+    }
+    .footer-two{
+        padding: 2rem 0;
+        em{
+            color: white;
+        }
+        p{
+            color: $para;
+            font-size: 0.7rem;
+            padding: 0.1rem 0;
+        }
+        i{
+            font-size: 0.8rem;
+        }
+    }
+}
