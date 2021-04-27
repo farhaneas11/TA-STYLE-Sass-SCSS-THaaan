@@ -1,0 +1,73 @@
+.title-margin{
+    padding: 2rem 0;
+}
+.button-primary{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid $primary;
+    background-color: $primary;
+}
+/*ONE*/
+.one-contact{
+    padding: 2rem 0;
+    background-color: $colorgrey;
+    h3{
+        @extend %h3;
+    }
+    p{
+        @extend %p;
+    }
+    .logo-box-error{
+        padding: 4rem 0;
+        img{
+            width: 90px;
+            height: 90px;
+        }
+        h4{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: black;
+        }
+        p{
+            @extend %p;
+        }
+    }
+    .imgdis-box-error{
+        padding: 1rem 0;
+    }
+}
+/*TWO*/
+.two-contact{
+    padding: 2rem 0;
+    h3{
+        @extend %h3;
+    }
+    p{
+        @extend %p;
+        
+    }
+    .title-margin{
+        padding: 2rem 0;
+    }
+    iframe{
+        width: 450px;
+        height: 250px;
+    }
+    .form-control{
+        width: 100%;
+        padding: 0rem 2rem;
+        .form-input{
+            width: 100%;
+            padding: 0.8rem 0.8rem;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: $para;
+            border-radius: 3px;
+            border: 1px solid $para;
+        }
+        
+    }    
+}

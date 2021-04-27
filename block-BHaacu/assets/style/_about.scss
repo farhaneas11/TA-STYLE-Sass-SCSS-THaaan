@@ -1,0 +1,125 @@
+/*ONE*/
+.one-about{
+    padding: 4rem 0;
+    background-color: $primary;
+    h1{
+        font-size: 3rem;
+        font-weight: 800;
+        color: white;
+    }
+    p{
+        color: white;
+        font-weight: 200;
+        font-size: 1rem;
+    }
+}
+/*TWO*/
+.two-about{
+    padding: 2rem 0;
+    span{
+        font-size: 0.9rem;
+        color: $primary;
+        font-weight: 400;
+    }
+    h3{
+        @extend %h3;
+        font-size: 2rem;
+        margin: 0.8rem 0;
+    }
+    p{
+        @extend %p;
+        width: 75%;
+    }
+    img{
+        width: 400px;
+        height: 300px;
+    }
+}
+/*THREE*/
+.three-about{
+    padding: 2rem 0;
+    img{
+        width: 400px;
+        height: 300px;
+    }
+    .small-logo{
+        width: 60px;
+        height: 60px;
+        margin-right: 1.5rem;
+        padding: 0.9rem 0;
+    }
+    h4{
+        font-size: 1.7rem;
+        font-weight: 500;
+        padding: 0.5rem 0
+    }
+    p{
+        @extend %p;
+        font-size: 1rem;
+    }
+    .box-size-about{
+        padding: 1.5rem 0;
+    }
+}
+/*FOUR*/
+.four-about{
+    padding: 2rem 0;
+    background-color: $colorgrey;
+    h3{
+        @extend %h3;        
+    }
+    p{
+        color: black;
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding: 0.5rem 0;
+    }
+    img{
+        width: 250px;
+        height: 300px;
+    }
+    .head-boxteam-four{
+        padding: 2rem 0;
+    }
+    .box-team-four{
+        border: 1px solid white;
+        background-color: white;   
+            
+    }
+    .four-team-name{
+        padding: 1.5rem 1rem;
+        span{
+            color: $primary;
+            font-size: 0.7rem;
+            font-weight: 400;
+        }
+        h6{
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+    }
+
+}
+/*FIVE*/
+.five-about{
+    padding: 2rem 0;
+    .box-five-about{
+        padding: 2rem 0
+    }
+    h3{
+        @extend %h3;
+    }
+    p{
+        @extend %p;
+        padding: 1rem 10rem;
+        
+    }
+    button{
+        background-color: $primary;
+        color: white;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding: 0.5rem 0.7rem;
+    }
+}
